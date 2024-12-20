@@ -8,8 +8,8 @@ export default function Header() {
 
 
     return (
-        <header className={`${value}-theme`}>
-            <h1>{value === "light" ? "Light" : "Dark"} Theme</h1>
+        <header className={`${value.theme}-theme`}>
+            <h1>{value.theme === "light" ? "Light" : "Dark"} Theme</h1>
         </header>
     )
 }

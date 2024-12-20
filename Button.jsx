@@ -7,7 +7,7 @@ export default function Button() {
 
     const value = React.useContext(ThemeContext)
     return (
-        <button className={`${value}-theme`}>
+        <button className={`${value.theme}-theme`} onClick={value.toggleTheme}>
             Switch Theme
         </button>
     )
